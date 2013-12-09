@@ -24,12 +24,24 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="TextQuery.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="open_file.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="word_count_cppproj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextQuery.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="open_file.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

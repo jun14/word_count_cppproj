@@ -1,3 +1,6 @@
+#ifndef TEXTQUERY_H
+#define TEXTQUERY_H
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -28,3 +31,8 @@ private:
 	// 记录词语以及他们出现的所有行
 	map<string, set<line_no>> word_map;
 };
+
+
+
+
+#endif

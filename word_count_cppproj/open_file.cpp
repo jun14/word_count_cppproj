@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "open_file.h"
 
 ifstream& open_file(ifstream &in, const string &file)
